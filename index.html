@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  
+  <!-- ВАЖНО для мобильных -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  
+  <title>My Pixi Game</title>
+
+  <style>
+    /* Убираем скроллы и отступы */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000; /* цвет полей */
+    }
+
+    /* Чтобы canvas занимал весь экран */
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
